@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+div {
+	width: 350px;
+	margin-top:150px;
+	border-radius:5px;
+	height:350px;
+    padding:20px;
+   /* box-shadow:2px 2px 2px 2px white;*/
+}
+legend{
+   padding-top:15px;
+   padding-bottom:30px;
+   font-size:30px;
+   color:white;
+}
+.in1{
+ width:200px;
+ background: linear-gradient(to right,blueviolet, rgb(184, 2, 169)); height:40px;
+ border:none;
+ border-radius:4px;
+ font-size:20px;
+ color:white;
+ font-family:cursive;
+}
+.in2{
+width:290px;
+height:35px;
+border-radius:8px;
+font-size:20px;
+background-color:transparent;
+border-color:blue;
+}
+::placeholder{
+color:white;
+font-family:cursive;
+}
+a{
+color:blue;
+}
+#p1:hover{
+text-decoration:underline;
+text-decoration-color:blue;
+}
+
+</style>
+</head>
+<body  style="background-image:url(https://as2.ftcdn.net/v2/jpg/01/19/11/55/1000_F_119115529_mEnw3lGpLdlDkfLgRcVSbFRuVl6sMDty.jpg);
+                      background-repeat:no-repeat; background-size:cover;">
+
+<center>
+	<div>
+		<form action="login">
+			
+				<legend align="center" style="font-family:cursive">LOGIN FORM</legend>
+			
+				 <input type="email" name="email" class="in2" placeholder="Email"><br><br>
+				 <input type="password" name="password" class="in2" placeholder="Password"><br><br>
+				<br> <button  class="in1" >LOGIN</button><br>
+			
+				<p id="p1"><a style="text-decoration:none">Forgotten password?</a></p>
+				<p style="color:blue">Create an Account? <a href="register.html" style="color:red">Register</a></p>
+			
+		</form>
+	</div>
+
+</body>
+</html>
